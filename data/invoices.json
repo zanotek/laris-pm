@@ -1,0 +1,10 @@
+[
+  { "ref": "C9-1", "component": "C9", "deliverables": [62], "first_sent": "2026-08-04", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Sent 4, 17 and 21 Aug. Re-issued in IGN FI letter 2026-00775 (26 Oct) in the format the bank (BPI) requires." },
+  { "ref": "C6-2", "component": "C6", "deliverables": [39], "first_sent": "2026-08-04", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Sent 4, 17 and 21 Aug. Re-issued in letter 2026-00775 (26 Oct)." },
+  { "ref": "C4-1", "component": "C4", "deliverables": [26], "first_sent": "2026-08-28", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Re-issued in letter 2026-00775 (26 Oct)." },
+  { "ref": "C5-1", "component": "C5", "deliverables": [31], "first_sent": "2026-09-25", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Covers both parts of D31. Re-issued in letter 2026-00775 (26 Oct)." },
+  { "ref": "C2-1", "component": "C2", "deliverables": [8], "first_sent": "2026-10-26", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Sent with letter 2026-00775. IGN FI also needs a letter of acceptance." },
+  { "ref": "C3-1", "component": "C3", "deliverables": [13], "first_sent": "2026-10-26", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Sent with letter 2026-00775. IGN FI also needs a letter of acceptance." },
+  { "ref": "C3b-0", "component": "C3b", "deliverables": [20], "first_sent": "2026-10-26", "amount": null, "currency": null, "status": "awaiting_countersignature", "paid": null, "note": "Sent with letter 2026-00775. IGN FI also needs a letter of acceptance." },
+  { "ref": "C5-2", "component": "C5", "deliverables": [32], "first_sent": null, "amount": null, "currency": null, "status": "not_yet_invoiced", "paid": null, "note": "IGN FI says it can invoice 10 working days after delivery (30 Oct) but needs a letter of acceptance." }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "LARIS",
+  "full_name": "Land Administration and Registration Information System",
+  "client": "Ministry of Lands and Housing Development (MoLHD), Zanzibar",
+  "consultant": "IGN FI",
+  "as_of": "2026-11-20",
+  "data_note": "Seeded from LARIS email threads up to 20 Nov 2026 and the IGN FI Deliverables Log of 5 Oct 2026. Update the JSON files in /data to change the dashboard.",
+  "components": [
+    { "code": "C1", "name": "ICT infrastructure" },
+    { "code": "C2", "name": "Geodetic infrastructure" },
+    { "code": "C3", "name": "Aerial imagery" },
+    { "code": "C3b", "name": "Spatial development master plan" },
+    { "code": "C4", "name": "Data conversion" },
+    { "code": "C5", "name": "Processes, regulations & system specs" },
+    { "code": "C6", "name": "Change management" },
+    { "code": "C7", "name": "Field works" },
+    { "code": "C9", "name": "Project management" }
+  ],
+  "people": [
+    { "name": "Ibrahim K. Mambo", "role": "Project Coordinator (MoLHD)" },
+    { "name": "Ahmed Abdulkadir Ahmed", "role": "Assistant Project Coordinator (MoLHD)" },
+    { "name": "Khadija Khamis Rajab", "role": "Principal Secretary (MoLHD)" },
+    { "name": "Barney Laseko", "role": "LARIS Project Manager (IGN FI)" },
+    { "name": "Daniel Casalprim", "role": "LARIS Deputy Project Manager (IGN FI)" },
+    { "name": "Auriane Sacoman", "role": "Deputy General Manager (IGN FI)" }
+  ]
+}

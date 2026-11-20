@@ -1,0 +1,10 @@
+[
+  { "date": "2026-09-12", "time": null, "title": "Steering Committee meeting", "body": "Steering Committee", "location": null, "note": null },
+  { "date": "2026-10-16", "time": null, "title": "Technical Committee meeting", "body": "Technical Committee", "location": null, "note": "IGN FI said on 22 Oct it was still waiting for any directives from this meeting." },
+  { "date": "2026-10-23", "time": "14:00", "title": "Technical Committee meeting", "body": "Technical Committee", "location": "Mwanakwerekwe", "note": "Progress review across components deferred to the Steering Committee." },
+  { "date": "2026-10-31", "time": null, "title": "Steering Committee meeting (tentative)", "body": "Steering Committee", "location": null, "note": "IGN FI to present progress on all components." },
+  { "date": "2026-11-17", "time": null, "title": "C4 meeting with Cristina Selaru", "body": "Working meeting", "location": null, "note": "Pemba files and conversion priorities." },
+  { "date": "2026-11-18", "time": "14:00", "title": "C1 Supervision", "body": "Working meeting", "location": "Microsoft Teams", "note": "With Albert Mallya and Audax Nshala." },
+  { "date": "2026-11-23", "time": null, "title": "Daniel Casalprim back on site", "body": "Milestone", "location": "Zanzibar", "note": "C4 points for COLA (Pemba files, scan priorities) can be taken up from this date." },
+  { "date": null, "time": null, "title": "C4 kick-off with COLA", "body": "Working meeting", "location": null, "note": "Date to be set. IGN FI marked it urgent on 14 Nov." }
+]

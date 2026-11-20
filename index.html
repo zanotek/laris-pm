@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LARIS Project Dashboard</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <p class="eyebrow">Ministry of Lands and Housing Development · Zanzibar</p>
+        <h1>LARIS project dashboard</h1>
+        <p class="sub">Land Administration and Registration Information System · Client-side tracker</p>
+      </div>
+      <div class="asof" id="asof"></div>
+    </div>
+    <nav class="wrap tabs" aria-label="Sections">
+      <a href="#overview">Overview</a>
+      <a href="#deliverables">Deliverables</a>
+      <a href="#issues">Issues &amp; risks</a>
+      <a href="#finance">Invoices</a>
+      <a href="#fieldops">Field ops</a>
+      <a href="#meetings">Meetings</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div id="load-error" class="notice" hidden></div>
+
+    <section id="overview" aria-labelledby="h-overview">
+      <h2 id="h-overview" class="visually-hidden">Overview</h2>
+      <div class="kpis" id="kpis"></div>
+      <div class="panel">
+        <div class="panel-head">
+          <h3>Waiting on the client side</h3>
+          <p class="muted">Open items owned by the Ministry, highest severity first</p>
+        </div>
+        <ol class="actions" id="actions"></ol>
+      </div>
+    </section>
+
+    <section id="deliverables" aria-labelledby="h-deliv">
+      <div class="section-head">
+        <h2 id="h-deliv">Deliverables &amp; reviews</h2>
+        <div class="filters">
+          <label>Component <select id="f-deliv-comp"><option value="">All</option></select></label>
+          <label>Stage <select id="f-deliv-stage"><option value="">All</option></select></label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data" id="t-deliv">
+          <thead><tr>
+            <th scope="col">No.</th><th scope="col">Comp.</th><th scope="col">Deliverable</th>
+            <th scope="col">Delivered</th><th scope="col">Stage</th>
+            <th scope="col" class="num" title="Calendar days since the latest submission, for items waiting on the client">Days with client</th>
+            <th scope="col">Invoice</th><th scope="col">Letter of acceptance</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="issues" aria-labelledby="h-issues">
+      <div class="section-head">
+        <h2 id="h-issues">Open issues &amp; risks</h2>
+        <div class="filters">
+          <label>Severity <select id="f-iss-sev"><option value="">All</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></label>
+          <label>Action with <select id="f-iss-side"><option value="">Anyone</option><option value="client">Client side</option><option value="consultant">IGN FI</option></select></label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data" id="t-issues">
+          <thead><tr>
+            <th scope="col">Severity</th><th scope="col">Issue</th><th scope="col">Area</th>
+            <th scope="col">Owner</th><th scope="col">Raised</th><th scope="col">Next step</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="finance" aria-labelledby="h-fin">
+      <div class="section-head">
+        <h2 id="h-fin">Invoices</h2>
+        <p class="muted" id="fin-note"></p>
+      </div>
+      <div class="table-wrap">
+        <table class="data" id="t-inv">
+          <thead><tr>
+            <th scope="col">Invoice</th><th scope="col">Comp.</th><th scope="col">Deliverables</th>
+            <th scope="col">First sent</th><th scope="col" class="num">Amount</th><th scope="col">Status</th><th scope="col">Notes</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="fieldops" aria-labelledby="h-ops">
+      <div class="section-head"><h2 id="h-ops">Field operations &amp; equipment</h2></div>
+      <div class="board" id="board"></div>
+    </section>
+
+    <section id="meetings" aria-labelledby="h-meet">
+      <div class="section-head"><h2 id="h-meet">Meetings &amp; milestones</h2></div>
+      <div class="two-col">
+        <div class="panel"><div class="panel-head"><h3>Upcoming / to schedule</h3></div><ul class="timeline" id="m-up"></ul></div>
+        <div class="panel"><div class="panel-head"><h3>Recent</h3></div><ul class="timeline" id="m-past"></ul></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p id="data-note"></p>
+    <p>To update the dashboard, edit the JSON files in <code>/data</code> and commit. The page reloads them on every visit.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

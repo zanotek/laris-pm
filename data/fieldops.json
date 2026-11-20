@@ -1,0 +1,11 @@
+[
+  { "component": "C3", "activity": "Sensor certificates and flight plan for the aerial survey", "location": "Zanzibar", "start": null, "end": "2026-09-30", "status": "done", "note": "Delivered under D13." },
+  { "component": "C2", "activity": "Reception of 4 GNSS receivers and 2 precise levelling sets", "location": "IGN FI office, Zanzibar", "start": null, "end": "2026-10-07", "status": "check", "note": "Equipment at IGN FI premises; handover to MoLHD was expected 6–7 Oct. Confirm it took place." },
+  { "component": "C2", "activity": "Ground Control Point observations – Pemba", "location": "Pemba", "start": null, "end": "2026-11-14", "status": "done", "note": "Completed. Vehicle SMZ 814B stays in Pemba until February for further field work." },
+  { "component": "C2", "activity": "GCP observations – islets around Unguja", "location": "Pamunda, Kwale, Pungume, Niamembe, Chapwani, Kibandiko, Changuu, Bawe", "start": "2026-11-17", "end": "2026-11-18", "status": "in_progress", "note": "On track as of 18 Nov. Chumbe added for 19 Nov; IGN FI asked the Ministry to handle the access letters." },
+  { "component": "C2", "activity": "Levelling training", "location": "Unguja", "start": "2026-11-16", "end": null, "status": "in_progress", "note": "2 weeks from the week of 16 Nov, led by a specialist from France. 2 COLA staff from Pemba take part. Plan sent to COLA by letter." },
+  { "component": "C4", "activity": "Data conversion equipment installed", "location": "LARIS office", "start": null, "end": "2026-11-14", "status": "done", "note": "Ready to start C4 activities." },
+  { "component": "C4", "activity": "C4 materials shipment (UPS)", "location": "JNIA, Dar es Salaam", "start": "2026-11-13", "end": null, "status": "blocked", "note": "Held at customs pending an authorization letter on Ministry letterhead." },
+  { "component": "C4", "activity": "Pemba file-scanning unit and record prioritisation", "location": "Pemba", "start": "2026-11-17", "end": null, "status": "planned", "note": "Two proposal documents shared by Cristina Selaru on 17 Nov." },
+  { "component": "C5", "activity": "LARIS server installation and configuration", "location": "LARIS office", "start": null, "end": null, "status": "planned", "note": "Waiting for 2 MoLHD technical staff to be named." }
+]
